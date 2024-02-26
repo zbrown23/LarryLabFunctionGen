@@ -1,0 +1,323 @@
+(kicad_sch
+	(version 20231120)
+	(generator "eeschema")
+	(generator_version "8.0")
+	(uuid "c0804e24-2f00-4453-8e42-e33513c2fc1c")
+	(paper "A4")
+	(lib_symbols)
+	(junction
+		(at 88.9 76.2)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "0600c88e-579a-4d30-b3a7-a56ed82a34bc")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 171.45 92.71)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "091d2c2f-cb9f-4a7e-b66a-a89f5299291c")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 101.6 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1102a505-d961-4c5a-890d-120e8e77eeee")
+	)
+	(wire
+		(pts
+			(xy 72.39 85.09) (xy 81.28 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1f5160d6-5285-4b4e-bd38-808e0a26c884")
+	)
+	(wire
+		(pts
+			(xy 81.28 100.33) (xy 162.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2d63c412-cf3f-4f4d-9a6e-0fbb98f00833")
+	)
+	(wire
+		(pts
+			(xy 81.28 85.09) (xy 81.28 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "359af136-d8e5-4030-b03b-9ef490af0771")
+	)
+	(wire
+		(pts
+			(xy 72.39 76.2) (xy 88.9 76.2)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "362a7de9-13d7-4f38-ad5b-7d3aa47f749a")
+	)
+	(wire
+		(pts
+			(xy 88.9 76.2) (xy 88.9 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "4c578711-40a0-4d29-8152-0dbbd7f9f6e8")
+	)
+	(wire
+		(pts
+			(xy 162.56 92.71) (xy 162.56 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7aedb503-7c5b-423c-85d6-e2dbd895f452")
+	)
+	(wire
+		(pts
+			(xy 88.9 95.25) (xy 156.21 95.25)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a4e62aa6-8984-42a9-8864-df1be2c20b83")
+	)
+	(wire
+		(pts
+			(xy 148.59 77.47) (xy 171.45 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c568cbeb-9a2a-4215-b08d-a4758053543f")
+	)
+	(wire
+		(pts
+			(xy 156.21 85.09) (xy 171.45 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c576bc0d-b381-4ec6-b803-78bf6059220e")
+	)
+	(wire
+		(pts
+			(xy 156.21 95.25) (xy 156.21 85.09)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fd5caa5e-d322-4b6c-8b1f-53e41b3e5c80")
+	)
+	(sheet
+		(at 30.48 68.58)
+		(size 41.91 20.32)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "9c3ff354-63d8-4df6-88f3-9ae3a0e1d411")
+		(property "Sheetname" "Larry Oscillator"
+			(at 30.48 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "larry_oscillator.kicad_sch"
+			(at 30.48 89.4846 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SQUARE" output
+			(at 72.39 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "21157076-ba56-4358-9601-d601cb158039")
+		)
+		(pin "TRIANGLE" output
+			(at 72.39 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "1db209ec-2e3a-49da-b5a4-f66f83c35402")
+		)
+		(instances
+			(project "LarryLabFunctionGen"
+				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c"
+					(page "2")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 101.6 68.58)
+		(size 46.99 21.59)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "ed9deebe-daf8-4ff6-a156-b3d2b8ce800e")
+		(property "Sheetname" "Sine Shaper"
+			(at 101.6 67.8684 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "sine_shaped.kicad_sch"
+			(at 101.6 90.7546 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SINE" output
+			(at 148.59 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+			(uuid "ff242417-b6e6-40cc-9c85-0797df23226d")
+		)
+		(pin "TRIANGLE" input
+			(at 101.6 76.2 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "a353c464-f376-406b-b533-4935b782dcce")
+		)
+		(instances
+			(project "LarryLabFunctionGen"
+				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c"
+					(page "3")
+				)
+			)
+		)
+	)
+	(sheet
+		(at 171.45 72.39)
+		(size 35.56 27.94)
+		(fields_autoplaced yes)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(fill
+			(color 0 0 0 0.0000)
+		)
+		(uuid "f48b5956-3b13-4f12-a98e-cc791758cc5d")
+		(property "Sheetname" "Ouput Stage"
+			(at 171.45 71.6784 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Sheetfile" "output.kicad_sch"
+			(at 171.45 100.9146 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+			)
+		)
+		(pin "SINE" input
+			(at 171.45 77.47 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "79ae6ff5-614a-4032-ba82-f269f92961a8")
+		)
+		(pin "SQUARE" input
+			(at 171.45 92.71 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "e8506a5a-44c4-4278-96c5-116fb445586c")
+		)
+		(pin "TRIANGLE" input
+			(at 171.45 85.09 180)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+			(uuid "875ca541-1ff2-446c-83d3-d11f0053102c")
+		)
+		(instances
+			(project "LarryLabFunctionGen"
+				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c"
+					(page "4")
+				)
+			)
+		)
+	)
+	(sheet_instances
+		(path "/"
+			(page "1")
+		)
+	)
+)
