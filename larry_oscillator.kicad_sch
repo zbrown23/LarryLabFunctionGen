@@ -141,6 +141,216 @@
 				)
 			)
 		)
+		(symbol "Device:R_Potentiometer_US"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "RV"
+				(at -4.445 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R_Potentiometer_US"
+				(at -2.54 0 90)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Potentiometer, US symbol"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "resistor variable"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Potentiometer*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "R_Potentiometer_US_0_1"
+				(polyline
+					(pts
+						(xy 0 -2.286) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.54) (xy 0 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.54 0) (xy 1.524 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.143 0) (xy 2.286 0.508) (xy 2.286 -0.508) (xy 1.143 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -0.762) (xy 1.016 -1.143) (xy 0 -1.524) (xy -1.016 -1.905) (xy 0 -2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 0.762) (xy 1.016 0.381) (xy 0 0) (xy -1.016 -0.381) (xy 0 -0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 2.286) (xy 1.016 1.905) (xy 0 1.524) (xy -1.016 1.143) (xy 0 0.762)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R_Potentiometer_US_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 1.27)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:R_US"
 			(pin_numbers hide)
 			(pin_names
@@ -1018,6 +1228,12 @@
 		(uuid "01331046-68aa-4087-96cc-eef10a1e27ae")
 	)
 	(junction
+		(at 138.43 90.17)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "284a7302-ec04-404f-8187-196b02c17187")
+	)
+	(junction
 		(at 115.57 101.6)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1028,6 +1244,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5cb547d0-24fa-47b2-bb1e-1bb057dcaf46")
+	)
+	(junction
+		(at 115.57 86.36)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6d6063ed-a526-4eb8-9531-a511f0a39db4")
 	)
 	(junction
 		(at 201.93 106.68)
@@ -1048,10 +1270,36 @@
 		(uuid "c3112555-ad13-4e86-8bd7-115552a010e5")
 	)
 	(junction
-		(at 138.43 90.17)
+		(at 138.43 86.36)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "cf44f43b-e52d-41a0-b528-983963123708")
+		(uuid "c9f0f0a7-a24b-4419-8052-9fea86b46853")
+	)
+	(junction
+		(at 97.79 107.95)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "d177c454-1037-4ae2-9e9f-3fe1f40a591a")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 120.65 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "04cf973a-090c-4469-b38b-583e19533011")
+	)
+	(wire
+		(pts
+			(xy 138.43 86.36) (xy 138.43 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "05bf3f7c-044b-4358-8626-210c572c8085")
 	)
 	(wire
 		(pts
@@ -1135,6 +1383,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 107.95) (xy 97.79 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3f85be7d-2c44-4ffe-9d2e-dc6b18ec9db0")
+	)
+	(wire
+		(pts
 			(xy 97.79 121.92) (xy 201.93 121.92)
 		)
 		(stroke
@@ -1162,16 +1420,6 @@
 			(type default)
 		)
 		(uuid "4dc008fb-703f-4db6-bbcf-92167a305dd2")
-	)
-	(wire
-		(pts
-			(xy 115.57 90.17) (xy 128.27 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "54de9c11-2bf1-499b-b581-ca79cc8358b2")
 	)
 	(wire
 		(pts
@@ -1215,6 +1463,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 113.03) (xy 101.6 113.03)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59ead7fa-0f47-43df-a104-e66a49e0814a")
+	)
+	(wire
+		(pts
 			(xy 123.19 113.03) (xy 123.19 111.76)
 		)
 		(stroke
@@ -1235,6 +1493,16 @@
 	)
 	(wire
 		(pts
+			(xy 138.43 86.36) (xy 128.27 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5f702bfc-fe63-4a56-84c8-861929383cbc")
+	)
+	(wire
+		(pts
 			(xy 142.24 90.17) (xy 138.43 90.17)
 		)
 		(stroke
@@ -1242,6 +1510,16 @@
 			(type default)
 		)
 		(uuid "67fabedb-ea2f-433c-964c-7603eba97391")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 115.57 101.6)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6aaa4430-50fe-4145-b0f5-a680efd93500")
 	)
 	(wire
 		(pts
@@ -1265,6 +1543,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 113.03) (xy 104.14 107.95)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7967c676-eb77-455c-acf1-a6f62845385f")
+	)
+	(wire
+		(pts
 			(xy 177.8 97.79) (xy 177.8 99.06)
 		)
 		(stroke
@@ -1275,7 +1563,17 @@
 	)
 	(wire
 		(pts
-			(xy 97.79 101.6) (xy 97.79 109.22)
+			(xy 138.43 72.39) (xy 138.43 86.36)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7f5d1664-b002-41ef-b8dc-e7d9d013b135")
+	)
+	(wire
+		(pts
+			(xy 97.79 101.6) (xy 97.79 107.95)
 		)
 		(stroke
 			(width 0)
@@ -1285,13 +1583,13 @@
 	)
 	(wire
 		(pts
-			(xy 115.57 101.6) (xy 115.57 90.17)
+			(xy 135.89 72.39) (xy 138.43 72.39)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "87db3199-ccd8-4d8d-a76b-f59c318387c3")
+		(uuid "88353f11-f002-4055-ab31-1b50c72fe670")
 	)
 	(wire
 		(pts
@@ -1302,6 +1600,16 @@
 			(type default)
 		)
 		(uuid "94377a68-1915-4bd0-8805-dc2b9fb3e093")
+	)
+	(wire
+		(pts
+			(xy 115.57 86.36) (xy 115.57 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ad6cd01-e5c6-437e-9c60-04ebee6e302a")
 	)
 	(wire
 		(pts
@@ -1365,6 +1673,16 @@
 	)
 	(wire
 		(pts
+			(xy 97.79 107.95) (xy 97.79 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d8ec002b-0a58-417b-a06b-c5234e308896")
+	)
+	(wire
+		(pts
 			(xy 209.55 106.68) (xy 201.93 106.68)
 		)
 		(stroke
@@ -1385,6 +1703,16 @@
 	)
 	(wire
 		(pts
+			(xy 115.57 72.39) (xy 120.65 72.39)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f30c7262-3f9d-41a4-bab1-54318ca60d93")
+	)
+	(wire
+		(pts
 			(xy 168.91 91.44) (xy 168.91 104.14)
 		)
 		(stroke
@@ -1402,27 +1730,6 @@
 			(type default)
 		)
 		(uuid "fec0c8a1-68ca-4e9f-9003-963a574254c1")
-	)
-	(wire
-		(pts
-			(xy 135.89 90.17) (xy 138.43 90.17)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "ff250964-7186-4e50-bb57-3a4bb693552d")
-	)
-	(text "Range of 10 to 100 Hz needs feedback resistance of 1M to 100k.\nRange of 100Hz to 1kHz needs feedback resistance of 100k to 10k."
-		(exclude_from_sim no)
-		(at 83.82 134.62 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d953512a-39c5-475d-8bbf-4e743aeb170e")
 	)
 	(hierarchical_label "TRIANGLE"
 		(shape output)
@@ -1447,120 +1754,6 @@
 			(justify left)
 		)
 		(uuid "8f18dc48-eba3-4203-b540-550187c81954")
-	)
-	(symbol
-		(lib_id "Simulation_SPICE:OPAMP")
-		(at 180.34 106.68 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "10acb196-decc-4024-b0f3-8cf673155aaa")
-		(property "Reference" "U1"
-			(at 182.88 102.87 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "${SIM.PARAMS}"
-			(at 203.2 105.0291 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=1 2=2 3=5 4=3 5=4"
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "SUBCKT"
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-		(property "Sim.Library" "/Users/zbrown/Documents/simulation-lib/lm324.lib"
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Name" "LM324"
-			(at 180.34 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7f070760-5771-451d-829c-160792c76eb0")
-		)
-		(pin "2"
-			(uuid "93cdaff0-0f2a-4801-9871-5d4a966197bc")
-		)
-		(pin "3"
-			(uuid "c9a3633f-d129-47d7-b06e-96dae5ff020c")
-		)
-		(pin "4"
-			(uuid "1c4510dc-ee31-4250-8276-1850316ed6d7")
-		)
-		(pin "5"
-			(uuid "3d950721-113b-4001-96bf-cef5c712c25c")
-		)
-		(instances
-			(project "LarryLabFunctionGen"
-				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
-					(reference "U1")
-					(unit 1)
-				)
-			)
-		)
 	)
 	(symbol
 		(lib_id "power:+15V")
@@ -2161,7 +2354,7 @@
 				(hide yes)
 			)
 		)
-		(property "Sim.Library" "/Users/zbrown/Documents/simulation-lib/lm324.lib"
+		(property "Sim.Library" "${KIPRJMOD}/spice_models/lm324.lib"
 			(at 125.73 104.14 0)
 			(effects
 				(font
@@ -2269,6 +2462,120 @@
 		)
 	)
 	(symbol
+		(lib_id "Simulation_SPICE:OPAMP")
+		(at 180.34 106.68 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "726d2cbc-55f2-4864-b07b-0b90442ef983")
+		(property "Reference" "U1"
+			(at 182.88 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "${SIM.PARAMS}"
+			(at 203.2 105.0291 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=1 2=2 3=5 4=3 5=4"
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "SUBCKT"
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+		(property "Sim.Library" "${KIPRJMOD}/spice_models/lm324.lib"
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Name" "LM324"
+			(at 180.34 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4042565d-68b9-4740-b31f-2bde4c21e0b9")
+		)
+		(pin "2"
+			(uuid "bd3d8bf0-ab7d-436a-b7eb-27e9113f3cc4")
+		)
+		(pin "3"
+			(uuid "1584c68c-361d-4567-b8f0-83549e2f27b5")
+		)
+		(pin "4"
+			(uuid "a1353bb2-da19-4b0f-b2ab-bb60559936fa")
+		)
+		(pin "5"
+			(uuid "f094d004-171b-4432-ad1b-2ca7b856f6b8")
+		)
+		(instances
+			(project "LarryLabFunctionGen"
+				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
+					(reference "U1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:+15V")
 		(at 26.67 109.22 0)
 		(unit 1)
@@ -2336,7 +2643,7 @@
 	)
 	(symbol
 		(lib_id "Device:C")
-		(at 132.08 90.17 90)
+		(at 124.46 86.36 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -2345,7 +2652,7 @@
 		(fields_autoplaced yes)
 		(uuid "9c0d689b-433d-492e-8a65-d217b09a36f7")
 		(property "Reference" "C3"
-			(at 132.08 82.55 90)
+			(at 124.46 78.74 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2353,7 +2660,7 @@
 			)
 		)
 		(property "Value" "100n"
-			(at 132.08 85.09 90)
+			(at 124.46 81.28 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2361,7 +2668,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 135.89 89.2048 0)
+			(at 128.27 85.3948 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2370,7 +2677,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 132.08 90.17 0)
+			(at 124.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2379,7 +2686,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 132.08 90.17 0)
+			(at 124.46 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -2397,6 +2704,115 @@
 			(project "LarryLabFunctionGen"
 				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
 					(reference "C3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R_Potentiometer_US")
+		(at 97.79 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "af12d522-4607-4221-a6f6-216007b8be91")
+		(property "Reference" "RV4"
+			(at 95.25 111.7599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "100k"
+			(at 95.25 114.2999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Potentiometer, US symbol"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "R"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "POT"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=r0 2=wiper 3=r1"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Params" "r=100k"
+			(at 97.79 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "fde46a06-55a3-4f55-b5ad-f0a56b8fc502")
+		)
+		(pin "1"
+			(uuid "9e4d83c3-96ba-47c3-bcfe-23a30e6bff7b")
+		)
+		(pin "2"
+			(uuid "d56f5b48-4bc5-4ee0-82be-f99ac0b794cc")
+		)
+		(instances
+			(project "LarryLabFunctionGen"
+				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
+					(reference "RV4")
 					(unit 1)
 				)
 			)
@@ -2535,6 +2951,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:C")
+		(at 124.46 72.39 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "c5b044c1-0fda-4a22-96b3-3312d9971dbc")
+		(property "Reference" "C2"
+			(at 124.46 64.77 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "10n"
+			(at 124.46 67.31 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 128.27 71.4248 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 124.46 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2ac44f7a-1a49-453b-b27e-b7dd1db52433")
+		)
+		(pin "1"
+			(uuid "fda12795-ff31-44cd-9056-a17deddbd1da")
+		)
+		(instances
+			(project "LarryLabFunctionGen"
+				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
+					(reference "C2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:-15V")
 		(at 177.8 115.57 180)
 		(unit 1)
@@ -2594,76 +3078,6 @@
 			(project "LarryLabFunctionGen"
 				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
 					(reference "#PWR09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_US")
-		(at 97.79 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e45bad77-3b3a-45ef-93ab-c52d7e673da2")
-		(property "Reference" "R2"
-			(at 100.33 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 100.33 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 98.806 113.284 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 97.79 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 97.79 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "4b5c87f9-e5e0-4870-914a-a03fcf545dfb")
-		)
-		(pin "2"
-			(uuid "c634ed65-a184-40d7-8ad1-c02f6869692d")
-		)
-		(instances
-			(project "LarryLabFunctionGen"
-				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
-					(reference "R2")
 					(unit 1)
 				)
 			)
