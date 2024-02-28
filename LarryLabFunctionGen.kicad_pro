@@ -420,6 +420,10 @@
     [
       "f48b5956-3b13-4f12-a98e-cc791758cc5d",
       "Ouput Stage"
+    ],
+    [
+      "e577636a-47d5-405b-95bc-27110d98a763",
+      "Pulse Generator"
     ]
   ],
   "text_variables": {}
