@@ -608,6 +608,247 @@
 				)
 			)
 		)
+		(symbol "Simulation_SPICE:NPN"
+			(pin_numbers hide)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "Q"
+				(at -2.54 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "NPN"
+				(at -2.54 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 63.5 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+				(at 63.5 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Device" "NPN"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Type" "GUMMELPOON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Sim.Pins" "1=C 2=B 3=E"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "simulation"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "NPN_0_1"
+				(polyline
+					(pts
+						(xy -2.54 0) (xy 0.635 0)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 0.635) (xy 2.54 2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 2.794 -1.27) (xy 2.794 -1.27)
+					)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 -0.635) (xy 2.54 -2.54) (xy 2.54 -2.54)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0.635 1.905) (xy 0.635 -1.905) (xy 0.635 -1.905)
+					)
+					(stroke
+						(width 0.508)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -1.778) (xy 1.778 -1.27) (xy 2.286 -2.286) (xy 1.27 -1.778) (xy 1.27 -1.778)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(circle
+					(center 1.27 0)
+					(radius 2.8194)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "NPN_1_1"
+				(pin open_collector line
+					(at 2.54 5.08 270)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin open_emitter line
+					(at 2.54 -5.08 90)
+					(length 2.54)
+					(name "E"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Simulation_SPICE:OPAMP"
 			(pin_names
 				(offset 0.254)
@@ -1058,6 +1299,12 @@
 		(uuid "9faeaaf4-dca6-456c-bae8-aa13c30b7e35")
 	)
 	(junction
+		(at 140.97 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ba62cee9-66fa-4262-abf0-74217b2664e7")
+	)
+	(junction
 		(at 168.91 104.14)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1207,6 +1454,16 @@
 	)
 	(wire
 		(pts
+			(xy 140.97 104.14) (xy 149.86 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "59c89589-8142-48e5-99bf-f1a41a1a8c94")
+	)
+	(wire
+		(pts
 			(xy 104.14 113.03) (xy 101.6 113.03)
 		)
 		(stroke
@@ -1327,6 +1584,16 @@
 	)
 	(wire
 		(pts
+			(xy 133.35 104.14) (xy 138.43 104.14)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8d11e64f-0ec5-4a80-ba43-068d717640c0")
+	)
+	(wire
+		(pts
 			(xy 115.57 86.36) (xy 115.57 72.39)
 		)
 		(stroke
@@ -1337,7 +1604,7 @@
 	)
 	(wire
 		(pts
-			(xy 138.43 104.14) (xy 149.86 104.14)
+			(xy 138.43 104.14) (xy 140.97 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1367,13 +1634,13 @@
 	)
 	(wire
 		(pts
-			(xy 133.35 104.14) (xy 138.43 104.14)
+			(xy 120.65 132.08) (xy 111.76 132.08)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
-		(uuid "b9a6aa18-eae6-4b91-a48a-710dd1c02290")
+		(uuid "c6baabdd-f270-4baf-b822-1a496b0dc534")
 	)
 	(wire
 		(pts
@@ -1414,6 +1681,36 @@
 			(type default)
 		)
 		(uuid "d8ec002b-0a58-417b-a06b-c5234e308896")
+	)
+	(wire
+		(pts
+			(xy 140.97 137.16) (xy 140.97 139.7)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "dbe7d772-4e09-4759-942a-b679816440a7")
+	)
+	(wire
+		(pts
+			(xy 140.97 104.14) (xy 140.97 127)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e20fc947-897d-4d18-b464-a3d9965540c0")
+	)
+	(wire
+		(pts
+			(xy 128.27 132.08) (xy 133.35 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ea838389-b114-4d78-8a40-a4d50b2d1e5d")
 	)
 	(wire
 		(pts
@@ -1491,7 +1788,7 @@
 	)
 	(hierarchical_label "GATE"
 		(shape input)
-		(at 81.28 133.35 180)
+		(at 111.76 132.08 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -1561,6 +1858,72 @@
 			(project "LarryLabFunctionGen"
 				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "PCM_4ms_Power-symbol:GND")
+		(at 140.97 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "133435ab-1b3b-40e2-89ee-0162d796d211")
+		(property "Reference" "#PWR044"
+			(at 140.97 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 140.97 144.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 140.97 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "27b1715f-cafb-4ff5-aa18-dc4624d9e661")
+		)
+		(instances
+			(project "LarryLabFunctionGen"
+				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
+					(reference "#PWR044")
 					(unit 1)
 				)
 			)
@@ -1695,6 +2058,106 @@
 			(project "LarryLabFunctionGen"
 				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
 					(reference "#PWR05")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Simulation_SPICE:NPN")
+		(at 138.43 132.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2a09da02-73cb-4f0a-b6c3-8810812169dd")
+		(property "Reference" "Q8"
+			(at 143.51 130.8099 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "NPN"
+			(at 143.51 133.3499 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 201.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ngspice.sourceforge.io/docs/ngspice-html-manual/manual.xhtml#cha_BJTs"
+			(at 201.93 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Bipolar transistor symbol for simulation only, substrate tied to the emitter"
+			(at 138.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Device" "NPN"
+			(at 138.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Type" "GUMMELPOON"
+			(at 138.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Sim.Pins" "1=C 2=B 3=E"
+			(at 138.43 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6800a224-f62f-466f-b26a-6ccbf0851d36")
+		)
+		(pin "1"
+			(uuid "b52b30d6-c012-4da5-a759-ab047205e3d4")
+		)
+		(pin "3"
+			(uuid "2bae43fa-6288-4f05-bba7-ff6996b81a9a")
+		)
+		(instances
+			(project "LarryLabFunctionGen"
+				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
+					(reference "Q8")
 					(unit 1)
 				)
 			)
@@ -2012,6 +2475,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_US")
+		(at 124.46 132.08 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "62bd98ff-e11b-4880-a3d5-fd4f0c3177fc")
+		(property "Reference" "R21"
+			(at 124.46 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1k"
+			(at 124.46 128.27 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 124.714 131.064 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 124.46 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "dfbf3518-b6bc-4d2e-ac01-965d198b6096")
+		)
+		(pin "2"
+			(uuid "751b9ccd-9844-4c9b-854e-0cd391cf645c")
+		)
+		(instances
+			(project "LarryLabFunctionGen"
+				(path "/c0804e24-2f00-4453-8e42-e33513c2fc1c/9c3ff354-63d8-4df6-88f3-9ae3a0e1d411"
+					(reference "R21")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Simulation_SPICE:OPAMP")
 		(at 180.34 106.68 0)
 		(unit 1)
@@ -2310,7 +2841,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "c5b044c1-0fda-4a22-96b3-3312d9971dbc")
 		(property "Reference" "C2"
 			(at 124.46 64.77 90)

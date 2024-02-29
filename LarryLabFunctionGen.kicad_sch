@@ -794,12 +794,6 @@
 		(uuid "1472e783-415d-4141-8892-201b8f254470")
 	)
 	(junction
-		(at 55.88 121.92)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "7fa4e202-ab48-4bbb-bce8-d84bcfe2e432")
-	)
-	(junction
 		(at 43.18 121.92)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -844,16 +838,6 @@
 			(type default)
 		)
 		(uuid "141cd5be-b35c-45ea-94f6-59320f2b4d6d")
-	)
-	(wire
-		(pts
-			(xy 124.46 121.92) (xy 55.88 121.92)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "1d94d68b-6f21-46e3-9c0d-234b191516ca")
 	)
 	(wire
 		(pts
@@ -1866,16 +1850,6 @@
 				(justify right)
 			)
 			(uuid "d7e8d96f-40db-457c-8bf5-0ec7b0c55cab")
-		)
-		(pin "GATE" input
-			(at 124.46 121.92 180)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-			(uuid "7165fc3b-ef81-4b6c-b4aa-43b976c49271")
 		)
 		(instances
 			(project "LarryLabFunctionGen"
